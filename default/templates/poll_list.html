@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>投票主題</h1>
+    <a href="/poll/create/">新增投票主題</a>
     <ul>
         {% for p in polls %}
         <li>{{ p.date_created }} {{ p.subject }}</li>
